@@ -15,7 +15,7 @@ Instructor will then try to add his own version of a dummy sensor at the same pl
 
 ## Exercise 2: Opening a branch
 
-We're going to try to take a similar approach for the microphone code, but this time we will create a branch to add a new sensor to as to be more careful against merge conflicts. Create a branch on your system, give it a good name (we'll all get to see it, so keep it professional...), and please add the following code block the beginning of the microphones dictionary in `calibrations.py`.
+We're going to try to take a similar approach for the microphone code, but this time we will create a branch to add a new sensor to as to be more careful against merge conflicts. Create a branch on your system (`git checkout -b BRANCHNAME`), give it a good name (we'll all get to see it, so keep it professional...), and please add the following code block the beginning of the microphones dictionary in `calibrations.py`.
 
 ```python
     'DUMMY': {
@@ -26,7 +26,7 @@ We're going to try to take a similar approach for the microphone code, but this 
     },
 ```
 
-Once you're done, please push your branch to GitHub (command `git push origin BRANCHNAME`).
+Once you're done, please add and commit your files and push your branch to GitHub (command `git push origin BRANCHNAME`).
 
 ## Exercise 3: Opening a Pull Request
 
